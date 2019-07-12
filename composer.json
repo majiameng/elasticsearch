@@ -1,0 +1,25 @@
+{
+    "name": "tinymeng/elasticsearch",
+    "description": "use elasticsearch",
+    "type": "library",
+    "keywords": [
+        "tinymeng", "elasticsearch"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JiaMeng Ma",
+            "email": "666@majiameng.com",
+            "homepage": "https://www.majiameng.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "tinymeng/tools": "^1.0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "tinymeng\\Elasticsearch\\": "src"
+        }
+    }
+}
