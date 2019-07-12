@@ -15,7 +15,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "tinymeng/tools": "^1.0.4"
+        "tinymeng/tools": "~1.0.4",
+        "elasticsearch/elasticsearch": "^7.1"
     },
     "autoload": {
         "psr-4": {
